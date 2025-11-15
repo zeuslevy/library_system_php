@@ -1,0 +1,27 @@
+Usuarios de ejemplo:
+ 
+Administrador
+
+Email: admin@biblioteca.com
+
+Contraseña (texto claro, de prueba): admin123
+
+Rol: admin
+-----------------------------------------------------------------------------------------
+Bibliotecario
+
+Email: librarian@biblioteca.com
+
+Contraseña (texto claro, de prueba): biblio123
+
+Rol: librarian
+-----------------------------------------------------------------------------------------
+Estudiante Demo
+
+Email: estudiante@biblioteca.com
+
+Contraseña (texto claro, de prueba): alumno123
+
+Rol: student
+
+

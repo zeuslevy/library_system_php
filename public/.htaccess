@@ -1,0 +1,16 @@
+
+# Habilita reescritura de URLs
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Establece el directorio base (ajústalo si cambias la ruta)
+    RewriteBase /proyecto_final/library_system_php_fixed/public/
+
+    # Si el archivo o directorio no existe, redirige a index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>
+
+# Opcional: desactiva listado de carpetas
+Options -Indexes

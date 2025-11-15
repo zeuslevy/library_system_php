@@ -1,0 +1,40 @@
+# ------------------------------
+# IGNORAR ARCHIVOS DEL SISTEMA
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# EDITORES Y ENTORNOS
+# ------------------------------
+.vscode/
+.idea/
+*.swp
+
+# ------------------------------
+# ARCHIVOS SENSIBLES
+# ------------------------------
+.env
+app/core/Config.php
+app/core/bootstrap_local.php
+config.php
+   
+# ------------------------------
+# LOGS Y CACHÉ
+# ------------------------------
+*.log
+*.cache
+*.session
+
+# ------------------------------
+# DIRECTORIOS DEL SERVIDOR
+# ------------------------------
+vendor/
+node_modules/
+composer.lock
+
+# ------------------------------
+# SESIONES PHP
+# ------------------------------
+/sessions/
+/tmp/
